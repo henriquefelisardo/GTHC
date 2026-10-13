@@ -1,0 +1,47 @@
+O tratamento dos dados e a maior parte da análise foram feitos pelo Sheets, e usando tabelas dinâmicas. Eu não tinha conhecimento nenhum de PowerBI e comecei a usar por conta desse projeto. A ultima imagem nos slides foi feita com o python no colab usando pandas, plonty e numpy. Nessa parte usei o gemini pra ajudar com o código (o csv tratado usado no colab não é exatamente esse aqui).
+
+
+
+Dados inferidos manualmente:
+
+Caminho: S -> C -> Q
+
+Todos os homens morreram
+Todas as mulheres sobreviveram
+
+Idade Média Geral foi a mesma que idade média masculina e idade média feminina (apenas considerando os dados de passageiros que estavam disponíveis): 30.272
+
+Classe 1 Sobreviventes: 50/107 -> 46.73%
+Classe 2 Sobreviventes: 30/93 -> 32,26%
+Classe 3 Sobreviventes: 72/2018 -> 33,03%
+
+Sobreviventes S (Inglaterra): 88/270 -> 32,59%
+Sobreviventes C (França): 40/102 -> 39,22%
+Sobreviventes Q (Irlanda): 24/46 -> 52,17%
+
+68/253 26,98% das pessoas que viajaram sozinhas sobreviveram
+84/165 50,91% das pessoas que não viajaram sozinhas sobreviveram
+
+266 Mortos/Homens
+    Idade Média Mortos: 30.272
+    205 de 266 tem idade nos dados, todo o resto foi tirado da média (Homens)
+    185 mortos sem membro/s da familia à bordo
+    81 mortos com membro/s da familia à bordo
+    Média do custo da passagem 27,527
+    57 eram da primeira classe (21,43%)
+    63 eram da segunda classe (23,68%)
+    146 eram da terceira classe (54,89%)
+    185 viajavam sozinhos (69,55%)
+    Dos 81 que não viajavam sozinhos a média de familiares a bordo é de aproximadamente 2
+
+152 Sobreviventes/Mulheres
+    Idade Média Sobreviventes: 30.272
+    127 de 152 tem idade nos dados, todo o resto foi tirado da média (Mulheres)
+    68 sobreviveram sem membro/s da familia à bordo
+    84 sobreviveram com membro/s da familia à bordo
+    Média do custo da passagem 49,747
+    50 eram da primeira classe (32,89%)
+    30 eram da segunda classe (19,74%)
+    72 eram da terceira classe (47,37%)
+    68 viajavam sozinhas (44,74%)
+    Das 84 que não viajavam sozinhas a média de familiares a bordo é de aproximadamente 2
